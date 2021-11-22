@@ -19,6 +19,7 @@ public class PlayerMovement : MonoBehaviour
     public float checkRadius;
     public LayerMask whatIsGround; //que es tierra para realizar el salto
 
+
     // Start is called before the first frame update
     void Start()
     {
@@ -69,5 +70,12 @@ public class PlayerMovement : MonoBehaviour
         {
             isJumping = false;
         }
+
+
+        
     }
+
+
+    //Funciones
+
 }
